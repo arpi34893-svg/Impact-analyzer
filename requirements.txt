@@ -1,0 +1,8 @@
+networkx>=3.2
+langgraph>=0.2
+langchain-google-genai>=2.0
+pydantic>=2.9
+streamlit>=1.30
+datasets>=2.19
+gitpython>=3.1
+unidiff>=0.7
