@@ -1,0 +1,2365 @@
+{
+  "psygreg/linuxtoys": [
+    {
+      "pr_number": 1005,
+      "files": [
+        "p3/app/window.py",
+        "p3/app/window_items.py",
+        "p3/app/window_nav.py",
+        "p3/app/window_search.py"
+      ]
+    },
+    {
+      "pr_number": 773,
+      "files": [
+        "p3/app/__init__.py",
+        "p3/app/file_watcher.py",
+        "p3/app/skills_fetcher.py",
+        "p3/app/skills_view.py",
+        "p3/app/term_view.py",
+        "p3/app/window.py"
+      ]
+    },
+    {
+      "pr_number": 430,
+      "files": [
+        "p3/app/manifest_helper.py",
+        "p3/linuxtoys.py"
+      ]
+    }
+  ],
+  "emersonfelipesp/netbox-proxbox": [
+    {
+      "pr_number": 539,
+      "files": [
+        "netbox_proxbox/views/backend_sync.py",
+        "tests/test_backend_sync_placement.py"
+      ]
+    },
+    {
+      "pr_number": 538,
+      "files": [
+        "netbox_proxbox/jobs.py",
+        "netbox_proxbox/schemas/sync_result.py",
+        "netbox_proxbox/sync_params.py",
+        "netbox_proxbox/sync_stages.py",
+        "tests/test_jobs.py",
+        "tests/test_schemas.py"
+      ]
+    }
+  ],
+  "pmorissette/bt": [
+    {
+      "pr_number": 577,
+      "files": [
+        "bt/algos.py",
+        "bt/core.py",
+        "tests/test_algos.py",
+        "tests/test_core.py"
+      ]
+    },
+    {
+      "pr_number": 575,
+      "files": [
+        "bt/algos.py",
+        "tests/test_algos.py"
+      ]
+    },
+    {
+      "pr_number": 574,
+      "files": [
+        "bt/backtest.py",
+        "tests/test_backtest.py"
+      ]
+    },
+    {
+      "pr_number": 573,
+      "files": [
+        "bt/algos.py",
+        "tests/test_algos.py"
+      ]
+    },
+    {
+      "pr_number": 572,
+      "files": [
+        "bt/core.py",
+        "tests/test_backtest.py",
+        "tests/test_core.py"
+      ]
+    },
+    {
+      "pr_number": 571,
+      "files": [
+        "bt/algos.py",
+        "tests/test_algos.py"
+      ]
+    },
+    {
+      "pr_number": 570,
+      "files": [
+        "bt/algos.py",
+        "tests/test_algos.py"
+      ]
+    },
+    {
+      "pr_number": 569,
+      "files": [
+        "bt/algos.py",
+        "tests/test_algos.py"
+      ]
+    },
+    {
+      "pr_number": 566,
+      "files": [
+        "bt/core.py",
+        "tests/test_core.py"
+      ]
+    },
+    {
+      "pr_number": 565,
+      "files": [
+        "bt/algos.py",
+        "tests/test_algos.py"
+      ]
+    },
+    {
+      "pr_number": 560,
+      "files": [
+        "bt/algos.py",
+        "tests/test_algos.py"
+      ]
+    },
+    {
+      "pr_number": 557,
+      "files": [
+        "bt/algos.py",
+        "tests/test_algos.py"
+      ]
+    }
+  ],
+  "wandb/weave": [
+    {
+      "pr_number": 7929,
+      "files": [
+        "tests/conversation/test_conversation.py",
+        "tests/conversation/test_conversation_otel.py",
+        "weave/conversation/conversation_otel.py",
+        "weave/conversation/types.py"
+      ]
+    },
+    {
+      "pr_number": 7936,
+      "files": [
+        "tests/trace_server/test_llm_completion.py",
+        "tests/trace_server_bindings/test_stainless_routes.py",
+        "weave/trace_server/clickhouse_trace_server_batched.py",
+        "weave/trace_server/trace_server_interface.py",
+        "weave/vendor/weave_server_sdk/resources/completions.py",
+        "weave/vendor/weave_server_sdk/types/agent_trace_chat_res.py",
+        "weave/vendor/weave_server_sdk/types/completion_create_params.py",
+        "weave/vendor/weave_server_sdk/types/completion_create_stream_params.py"
+      ]
+    },
+    {
+      "pr_number": 7937,
+      "files": [
+        "tests/trace_server/query_builder/test_agent_query_builder.py",
+        "tests/trace_server/test_genai_agent_queries.py",
+        "weave/trace_server/agents/types.py",
+        "weave/trace_server/query_builder/agent_insight_filters.py"
+      ]
+    },
+    {
+      "pr_number": 7928,
+      "files": [
+        "tests/integrations/google_genai/test_google_genai.py",
+        "weave/integrations/google_genai/gemini_utils.py"
+      ]
+    },
+    {
+      "pr_number": 7934,
+      "files": [
+        "tests/conversation/test_conversation_otel.py",
+        "weave/conversation/conversation.py"
+      ]
+    },
+    {
+      "pr_number": 7926,
+      "files": [
+        "tests/trace_server/query_builder/test_calls_query_builder.py",
+        "weave/trace_server/calls_query_builder/calls_query_builder.py"
+      ]
+    }
+  ],
+  "frida/frida-python": [
+    {
+      "pr_number": 263,
+      "files": [
+        "frida/__init__.py",
+        "frida/core.py"
+      ]
+    },
+    {
+      "pr_number": 236,
+      "files": [
+        "examples/bytecode.py",
+        "examples/rpc.py"
+      ]
+    },
+    {
+      "pr_number": 237,
+      "files": [
+        "examples/unpair.py",
+        "frida/core.py"
+      ]
+    },
+    {
+      "pr_number": 224,
+      "files": [
+        "frida/core.py",
+        "setup.py"
+      ]
+    },
+    {
+      "pr_number": 220,
+      "files": [
+        "frida/core.py",
+        "setup.py"
+      ]
+    },
+    {
+      "pr_number": 223,
+      "files": [
+        "frida/core.py",
+        "setup.py"
+      ]
+    }
+  ],
+  "spacetelescope/jwst": [
+    {
+      "pr_number": 10883,
+      "files": [
+        "jwst/barshadow/bar_shadow.py",
+        "jwst/barshadow/tests/test_barshadow.py",
+        "jwst/extract_1d/extract.py",
+        "jwst/extract_1d/extract_1d_step.py",
+        "jwst/extract_1d/ifu.py",
+        "jwst/extract_1d/tests/test_extract.py",
+        "jwst/lib/exposure_types.py",
+        "jwst/lib/tests/test_exposure_types.py",
+        "jwst/pathloss/pathloss.py",
+        "jwst/pathloss/tests/test_pathloss.py",
+        "jwst/photom/photom.py",
+        "jwst/wavecorr/tests/test_wavecorr.py",
+        "jwst/wavecorr/wavecorr.py"
+      ]
+    },
+    {
+      "pr_number": 10891,
+      "files": [
+        "jwst/extract_1d/extract_1d_step.py",
+        "jwst/extract_1d/tests/test_extract_1d_step.py"
+      ]
+    },
+    {
+      "pr_number": 10632,
+      "files": [
+        "jwst/persistence/persistence.py",
+        "jwst/persistence/persistence_step.py"
+      ]
+    },
+    {
+      "pr_number": 10607,
+      "files": [
+        "jwst/residual_fringe/fitter.py",
+        "jwst/residual_fringe/residual_fringe.py",
+        "jwst/residual_fringe/residual_fringe_step.py",
+        "jwst/residual_fringe/utils.py"
+      ]
+    },
+    {
+      "pr_number": 10638,
+      "files": [
+        "jwst/adaptive_trace_model/adaptive_trace_model_step.py",
+        "jwst/adaptive_trace_model/trace_model.py",
+        "jwst/regtest/test_miri_mrs_trace_model.py"
+      ]
+    },
+    {
+      "pr_number": 10879,
+      "files": [
+        "jwst/background/background_sub_wfss.py",
+        "jwst/background/tests/test_background_wfss.py"
+      ]
+    },
+    {
+      "pr_number": 10629,
+      "files": [
+        "jwst/persistence/persistence.py",
+        "jwst/persistence/persistence_step.py",
+        "jwst/persistence/tests/test_persistence_step.py"
+      ]
+    },
+    {
+      "pr_number": 10635,
+      "files": [
+        "jwst/picture_frame/picture_frame.py",
+        "jwst/picture_frame/tests/test_picture_frame.py"
+      ]
+    },
+    {
+      "pr_number": 10867,
+      "files": [
+        "jwst/lib/tests/test_set_telescope_pointing.py",
+        "jwst/lib/tests/test_v1_calculate.py",
+        "jwst/regtest/test_fgs_pointing.py"
+      ]
+    },
+    {
+      "pr_number": 10877,
+      "files": [
+        "jwst/combine_1d/tests/test_combine1d.py",
+        "jwst/datamodels/utils/tests/wfss_helpers.py"
+      ]
+    },
+    {
+      "pr_number": 7521,
+      "files": [
+        "jwst/cube_build/cube_build.py",
+        "jwst/cube_build/cube_build_io_util.py",
+        "jwst/cube_build/cube_build_step.py",
+        "jwst/cube_build/data_types.py",
+        "jwst/cube_build/file_table.py",
+        "jwst/cube_build/ifu_cube.py",
+        "jwst/cube_build/tests/test_configuration.py",
+        "jwst/cube_build/tests/test_miri_cubepars.py",
+        "jwst/cube_build/tests/test_nirspec_cubepars.py",
+        "jwst/cube_build/tests/test_wcs.py",
+        "jwst/regtest/test_miri_cubebuild.py"
+      ]
+    }
+  ],
+  "0xRadikal/Free-v2ray-Configs": [
+    {
+      "pr_number": 23,
+      "files": [
+        "scripts/converters.py",
+        "scripts/test_pipeline.py"
+      ]
+    },
+    {
+      "pr_number": 19,
+      "files": [
+        "scripts/aggregate.py",
+        "scripts/test_pipeline.py"
+      ]
+    },
+    {
+      "pr_number": 17,
+      "files": [
+        "scripts/converters.py",
+        "scripts/core.py",
+        "scripts/test_pipeline.py"
+      ]
+    },
+    {
+      "pr_number": 13,
+      "files": [
+        "scripts/countries.py",
+        "scripts/geoip_probe.py",
+        "scripts/pipeline.py",
+        "scripts/test_pipeline.py"
+      ]
+    },
+    {
+      "pr_number": 14,
+      "files": [
+        "scripts/countries.py",
+        "scripts/test_pipeline.py"
+      ]
+    },
+    {
+      "pr_number": 12,
+      "files": [
+        "scripts/aggregate.py",
+        "scripts/core.py",
+        "scripts/sources.py",
+        "scripts/state.py"
+      ]
+    }
+  ],
+  "nextstrain/ncov": [
+    {
+      "pr_number": 1207,
+      "files": [
+        "scripts/assign-clade-colors.py",
+        "scripts/assign-colors.py",
+        "scripts/assign-lineage-colors.py",
+        "scripts/color_utils.py"
+      ]
+    },
+    {
+      "pr_number": 1215,
+      "files": [
+        "scripts/curate_metadata/curate_metadata.py",
+        "scripts/curate_metadata/parse_additional_info.py",
+        "scripts/curate_metadata/parse_new_sequences.py",
+        "scripts/curate_metadata/tweet_generation.py"
+      ]
+    },
+    {
+      "pr_number": 1208,
+      "files": [
+        "scripts/add_labels.py",
+        "scripts/deprecated/calculate_delta_frequency.py",
+        "scripts/deprecated/parse_mutational_fitness_tsv_into_distance_map.py",
+        "scripts/generate-scientific-credits.py"
+      ]
+    }
+  ],
+  "wemake-services/django-modern-rest": [
+    {
+      "pr_number": 1589,
+      "files": [
+        "dmr/security/jwt/auth/cookie.py",
+        "tests/test_unit/test_security/test_jwt/test_jwt_cookie_auth.py"
+      ]
+    },
+    {
+      "pr_number": 1586,
+      "files": [
+        "dmr/controller.py",
+        "dmr/endpoint.py",
+        "dmr/internal/endpoint.py",
+        "dmr/metadata.py",
+        "dmr/openapi/generators/security_scheme.py",
+        "dmr/settings.py",
+        "dmr/validation/endpoint_metadata.py",
+        "dmr/validation/metadata_merger.py",
+        "dmr/validation/payload.py",
+        "dmr/validation/settings.py",
+        "docs/examples/openapi/exclude_auth_per_controller.py",
+        "docs/examples/openapi/exclude_auth_per_endpoint.py",
+        "docs/examples/openapi/semantic_auth_per_controller.py",
+        "docs/examples/openapi/semantic_auth_per_endpoint.py",
+        "docs/examples/openapi/semantic_schema_per_controller.py",
+        "docs/examples/openapi/semantic_schema_per_endpoint.py",
+        "tests/test_unit/test_controllers/test_configuration_levels.py",
+        "tests/test_unit/test_controllers/test_customization/test_metadata_merger_customization.py",
+        "tests/test_unit/test_controllers/test_exclude_semantic_auth.py",
+        "tests/test_unit/test_controllers/test_exclude_semantic_responses.py",
+        "tests/test_unit/test_controllers/test_semantic_schema.py",
+        "tests/test_unit/test_validation/test_settings_validation.py"
+      ]
+    },
+    {
+      "pr_number": 1585,
+      "files": [
+        "tests/conftest.py",
+        "tests/test_integration/conftest.py",
+        "tests/test_integration/test_cursor_pagination/test_cursor_paginator.py",
+        "tests/test_integration/test_django_session_auth/test_django_sessions_auth_views.py",
+        "tests/test_integration/test_management/test_dmr_export_schema.py",
+        "tests/test_integration/test_not_found_view.py",
+        "tests/test_integration/test_openapi/test_views.py"
+      ]
+    },
+    {
+      "pr_number": 1110,
+      "files": [
+        "dmr/security/__init__.py",
+        "dmr/security/base.py",
+        "dmr/validation/endpoint_metadata.py",
+        "dmr/validation/settings.py",
+        "tests/test_unit/test_security/test_sync_or_async_auth_dynamic.py",
+        "tests/test_unit/test_security/test_sync_or_async_auth_validation.py"
+      ]
+    },
+    {
+      "pr_number": 1584,
+      "files": [
+        "dmr/internal/jwt.py",
+        "dmr/openapi/config.py",
+        "dmr/openapi/mappers/schema_normalization.py",
+        "dmr/routing.py",
+        "dmr/security/allauth/auth.py",
+        "dmr/streaming/controller.py",
+        "dmr/throttling/backends/redis.py",
+        "dmr/validation/settings.py",
+        "docs/conf.py",
+        "docs/tools/sphinx_ext/run_examples.py",
+        "tests/test_unit/test_security/test_sync_or_async_auth_validation.py",
+        "tests/test_unit/test_security/test_token/test_token_admin.py",
+        "tests/test_unit/test_throttling/test_throttling_validation.py"
+      ]
+    },
+    {
+      "pr_number": 1555,
+      "files": [
+        "dmr/settings.py",
+        "dmr/validation/endpoint_metadata.py",
+        "tests/test_unit/test_controllers/test_http_spec/test_cookie_name_syntax.py",
+        "tests/test_unit/test_controllers/test_http_spec/test_cookie_semantics.py"
+      ]
+    },
+    {
+      "pr_number": 1109,
+      "files": [
+        "dmr/openapi/config.py",
+        "dmr/settings.py",
+        "tests/test_unit/test_openapi/test_views.py"
+      ]
+    },
+    {
+      "pr_number": 1580,
+      "files": [
+        "dmr/endpoint.py",
+        "dmr/types.py",
+        "dmr/validation/__init__.py",
+        "dmr/validation/endpoint_metadata.py",
+        "dmr/validation/metadata_merger.py",
+        "dmr/validation/payload.py",
+        "docs/conf.py",
+        "tests/test_unit/test_controllers/test_customization/test_metadata_merger_customization.py"
+      ]
+    },
+    {
+      "pr_number": 1579,
+      "files": [
+        "dmr/endpoint.py",
+        "dmr/internal/endpoint.py",
+        "dmr/metadata.py",
+        "dmr/openapi/generators/response.py",
+        "dmr/settings.py",
+        "dmr/validation/endpoint_metadata.py",
+        "dmr/validation/payload.py"
+      ]
+    },
+    {
+      "pr_number": 1578,
+      "files": [
+        "dmr/controller.py",
+        "dmr/internal/endpoint.py",
+        "dmr/internal/types.py",
+        "dmr/openapi/mappers/example.py",
+        "dmr/settings.py",
+        "dmr/types.py",
+        "dmr/validation/endpoint_metadata.py",
+        "dmr/validation/payload.py",
+        "dmr/validation/settings.py",
+        "docs/tools/sphinx_ext/run_examples.py",
+        "tests/test_unit/test_controllers/test_configuration_levels.py",
+        "tests/test_unit/test_endpoint/test_response_validation.py",
+        "tests/test_unit/test_endpoint/test_response_validation_disabled.py",
+        "tests/test_unit/test_openapi/test_example_seeding.py",
+        "tests/test_unit/test_openapi/test_generated_examples.py",
+        "tests/test_unit/test_streaming/test_sse/test_sse_validation.py",
+        "tests/test_unit/test_validation/test_settings_validation.py"
+      ]
+    },
+    {
+      "pr_number": 1577,
+      "files": [
+        "dmr/controller.py",
+        "dmr/endpoint.py",
+        "dmr/internal/endpoint.py",
+        "dmr/metadata.py",
+        "dmr/routing.py",
+        "dmr/streaming/controller.py",
+        "dmr/validation/endpoint_metadata.py",
+        "dmr/validation/payload.py",
+        "docs/examples/auth/jwt/using_jwt.py",
+        "docs/examples/auth/jwt/using_jwt_cookie.py",
+        "docs/examples/configuration/strategy_disable.py",
+        "docs/examples/configuration/strategy_merge.py",
+        "docs/examples/configuration/strategy_override.py",
+        "docs/examples/openapi/controller_tags.py",
+        "docs/examples/throttling/multiple.py",
+        "tests/test_unit/test_controllers/test_collect_metadata.py",
+        "tests/test_unit/test_controllers/test_configuration_levels.py",
+        "tests/test_unit/test_controllers/test_exclude_validate_responses.py",
+        "tests/test_unit/test_openapi/test_controller_tags.py",
+        "tests/test_unit/test_security/test_jwt/test_jwt_broken_encoding.py",
+        "tests/test_unit/test_streaming/test_streaming_renderers.py",
+        "tests/test_unit/test_throttling/test_throttling.py"
+      ]
+    },
+    {
+      "pr_number": 1571,
+      "files": [
+        "dmr/controller.py",
+        "tests/test_unit/test_controllers/test_controller_login_required.py"
+      ]
+    },
+    {
+      "pr_number": 1574,
+      "files": [
+        "dmr/security/jwt/views/cookie.py",
+        "tests/test_unit/test_security/test_jwt/test_blocklist/test_blocklist_views.py",
+        "tests/test_unit/test_security/test_jwt/test_jwt_cookie_views.py"
+      ]
+    },
+    {
+      "pr_number": 1573,
+      "files": [
+        "dmr/security/django_session/views.py",
+        "dmr/security/jwt/views/body.py",
+        "dmr/security/jwt/views/cookie.py",
+        "dmr/security/token/views.py"
+      ]
+    }
+  ],
+  "Fatal1ty/mashumaro": [
+    {
+      "pr_number": 345,
+      "files": [
+        "mashumaro/core/const.py",
+        "tests/test_pep_646.py"
+      ]
+    },
+    {
+      "pr_number": 370,
+      "files": [
+        "mashumaro/core/meta/types/unpack.py",
+        "tests/test_data_types.py",
+        "tests/test_jsonschema/test_jsonschema_generation.py"
+      ]
+    },
+    {
+      "pr_number": 363,
+      "files": [
+        "mashumaro/__init__.py",
+        "mashumaro/codecs/_builder.py",
+        "mashumaro/codecs/basic.py",
+        "mashumaro/codecs/json.py",
+        "mashumaro/codecs/msgpack.py",
+        "mashumaro/codecs/orjson.py",
+        "mashumaro/codecs/toml.py",
+        "mashumaro/codecs/yaml.py",
+        "mashumaro/config.py",
+        "mashumaro/core/const.py",
+        "mashumaro/core/helpers.py",
+        "mashumaro/core/meta/code/builder.py",
+        "mashumaro/core/meta/helpers.py",
+        "mashumaro/core/meta/mixin.py",
+        "mashumaro/core/meta/types/common.py",
+        "mashumaro/core/meta/types/pack.py",
+        "mashumaro/core/meta/types/unpack.py",
+        "mashumaro/dialect.py",
+        "mashumaro/exceptions.py",
+        "mashumaro/helper.py",
+        "mashumaro/jsonschema/__init__.py",
+        "mashumaro/jsonschema/annotations.py",
+        "mashumaro/jsonschema/builder.py",
+        "mashumaro/jsonschema/dialects.py",
+        "mashumaro/jsonschema/models.py",
+        "mashumaro/jsonschema/schema.py",
+        "mashumaro/mixins/dict.py",
+        "mashumaro/mixins/json.py",
+        "mashumaro/mixins/msgpack.py"
+      ]
+    },
+    {
+      "pr_number": 367,
+      "files": [
+        "mashumaro/codecs/_builder.py",
+        "mashumaro/codecs/basic.py",
+        "mashumaro/codecs/json.py",
+        "mashumaro/codecs/msgpack.py",
+        "mashumaro/codecs/orjson.py",
+        "mashumaro/codecs/toml.py",
+        "mashumaro/codecs/yaml.py",
+        "mashumaro/core/meta/code/builder.py",
+        "mashumaro/core/meta/helpers.py",
+        "mashumaro/core/meta/types/common.py",
+        "mashumaro/core/meta/types/pack.py",
+        "mashumaro/core/meta/types/unpack.py",
+        "mashumaro/exceptions.py",
+        "mashumaro/jsonschema/builder.py",
+        "mashumaro/jsonschema/schema.py",
+        "tests/test_codecs/test_basic_codec.py",
+        "tests/typecheck/meta_helpers.py",
+        "tests/typecheck/typeform.py"
+      ]
+    },
+    {
+      "pr_number": 361,
+      "files": [
+        "mashumaro/core/meta/types/pack.py",
+        "mashumaro/core/meta/types/unpack.py",
+        "mashumaro/jsonschema/schema.py",
+        "mashumaro/mixins/msgpack.py",
+        "tests/test_codecs/test_msgpack_codec.py",
+        "tests/test_data_types.py",
+        "tests/test_jsonschema/test_jsonschema_generation.py",
+        "tests/test_msgpack.py"
+      ]
+    },
+    {
+      "pr_number": 359,
+      "files": [
+        "mashumaro/core/meta/types/pack.py",
+        "mashumaro/core/meta/types/unpack.py",
+        "mashumaro/mixins/msgpack.py",
+        "tests/test_data_types.py",
+        "tests/test_msgpack.py"
+      ]
+    },
+    {
+      "pr_number": 352,
+      "files": [
+        "mashumaro/jsonschema/schema.py",
+        "tests/entities.py",
+        "tests/test_jsonschema/test_jsonschema_generation.py"
+      ]
+    },
+    {
+      "pr_number": 356,
+      "files": [
+        "mashumaro/core/meta/types/pack.py",
+        "mashumaro/core/meta/types/unpack.py",
+        "mashumaro/jsonschema/schema.py",
+        "tests/test_data_types.py",
+        "tests/test_json.py",
+        "tests/test_jsonschema/test_jsonschema_generation.py",
+        "tests/test_msgpack.py",
+        "tests/test_slice.py"
+      ]
+    },
+    {
+      "pr_number": 339,
+      "files": [
+        "mashumaro/config.py",
+        "mashumaro/core/meta/code/builder.py",
+        "mashumaro/helper.py",
+        "mashumaro/jsonschema/schema.py",
+        "tests/test_aliases.py",
+        "tests/test_jsonschema/test_jsonschema_generation.py"
+      ]
+    },
+    {
+      "pr_number": 355,
+      "files": [
+        "mashumaro/core/meta/code/builder.py",
+        "tests/test_config.py"
+      ]
+    },
+    {
+      "pr_number": 344,
+      "files": [
+        "mashumaro/core/meta/types/unpack.py",
+        "tests/test_pep_695.py"
+      ]
+    },
+    {
+      "pr_number": 353,
+      "files": [
+        "mashumaro/core/meta/code/builder.py",
+        "mashumaro/core/meta/types/pack.py",
+        "mashumaro/core/meta/types/unpack.py",
+        "tests/test_codecs/test_basic_codec.py"
+      ]
+    },
+    {
+      "pr_number": 350,
+      "files": [
+        "mashumaro/core/meta/helpers.py",
+        "mashumaro/core/meta/types/pack.py",
+        "mashumaro/core/meta/types/unpack.py",
+        "mashumaro/jsonschema/schema.py",
+        "tests/test_generics.py",
+        "tests/test_jsonschema/test_jsonschema_generation.py",
+        "tests/test_meta.py"
+      ]
+    },
+    {
+      "pr_number": 347,
+      "files": [
+        "mashumaro/core/meta/types/unpack.py",
+        "tests/test_discriminated_unions/test_union_by_field.py"
+      ]
+    },
+    {
+      "pr_number": 336,
+      "files": [
+        "mashumaro/core/meta/types/pack.py",
+        "tests/test_pep_695.py"
+      ]
+    },
+    {
+      "pr_number": 342,
+      "files": [
+        "mashumaro/core/meta/types/unpack.py",
+        "tests/test_config.py"
+      ]
+    }
+  ],
+  "thinking-machines-lab/tinker": [
+    {
+      "pr_number": 39,
+      "files": [
+        "src/tinker/lib/_jwt_auth.py",
+        "src/tinker/lib/_jwt_auth_test.py"
+      ]
+    },
+    {
+      "pr_number": 15,
+      "files": [
+        "src/tinker/lib/public_interfaces/training_client.py",
+        "src/tinker/types/tensor_data.py"
+      ]
+    }
+  ],
+  "ROCm/aiter": [
+    {
+      "pr_number": 5797,
+      "files": [
+        "aiter/ops/triton/_gluon_kernels/gfx950/attention/sparse_mla.py",
+        "aiter/ops/triton/attention/pa_decode_sparse.py",
+        "aiter/ops/triton/attention/sparse_mla.py",
+        "op_tests/triton_tests/attention/test_pa_decode_sparse.py"
+      ]
+    },
+    {
+      "pr_number": 5814,
+      "files": [
+        "aiter/ops/flydsl/grouped_moe_gfx1250.py",
+        "aiter/ops/flydsl/kernels/mega_moe_gfx1250/config.py",
+        "aiter/ops/flydsl/kernels/mega_moe_gfx1250/dispatch.py",
+        "aiter/ops/flydsl/kernels/mega_moe_gfx1250/dispatch_tdm.py",
+        "aiter/ops/flydsl/kernels/mega_moe_gfx1250/mega_moe.py",
+        "op_tests/multigpu_tests/bench_mega_moe.py",
+        "op_tests/multigpu_tests/bench_mega_stage1.py",
+        "op_tests/multigpu_tests/test_dispatch_tdm_gfx1250.py"
+      ]
+    },
+    {
+      "pr_number": 5740,
+      "files": [
+        "aiter/ops/triton/_gluon_kernels/gfx1250/moe/moe_op_gemm_a4w4.py",
+        "aiter/ops/triton/_triton_kernels/moe/moe_routing/routing.py"
+      ]
+    },
+    {
+      "pr_number": 4991,
+      "files": [
+        "aiter/ops/inverse_rope_group_quant.py",
+        "op_tests/test_inverse_rope_group_quant.py"
+      ]
+    },
+    {
+      "pr_number": 5443,
+      "files": [
+        "aiter/fused_moe.py",
+        "csrc/ck_gemm_moe_2stages_codegen/gemm_moe_tune.py"
+      ]
+    },
+    {
+      "pr_number": 5370,
+      "files": [
+        "aiter/aot/flydsl/common.py",
+        "aiter/aot/flydsl/conv.py",
+        "aiter/jit/core.py",
+        "aiter/ops/flydsl/__init__.py",
+        "aiter/ops/flydsl/conv3d_policy.py",
+        "aiter/ops/flydsl/conv_kernels.py",
+        "aiter/ops/flydsl/kernels/conv/__init__.py",
+        "aiter/ops/flydsl/kernels/conv/conv3d_gfx950_utils.py",
+        "aiter/ops/flydsl/kernels/conv/conv3d_im2col.py",
+        "aiter/ops/flydsl/kernels/conv/conv3d_implicit_gfx950.py",
+        "aiter/ops/flydsl/kernels/conv/conv3d_transpose.py",
+        "csrc/flydsl_conv3d/conv3d_tune.py",
+        "op_tests/test_flydsl_conv_implicit.py",
+        "op_tests/tuning_tests/test_config_shape_collision.py"
+      ]
+    },
+    {
+      "pr_number": 5796,
+      "files": [
+        "aiter/aot/flydsl/common.py",
+        "aiter/aot/flydsl/fmha_fp8.py",
+        "aiter/jit/core.py"
+      ]
+    },
+    {
+      "pr_number": 5699,
+      "files": [
+        "aiter/ops/gemm_op_a8w4.py",
+        "aiter/ops/gemm_op_a8w8.py",
+        "aiter/ops/mxfp8fp4gemm_common.py",
+        "op_tests/test_mxfp8fp4gemm.py"
+      ]
+    },
+    {
+      "pr_number": 5748,
+      "files": [
+        "aiter/fused_moe.py",
+        "aiter/ops/opus/moe_stage2_a8w4.py"
+      ]
+    },
+    {
+      "pr_number": 5672,
+      "files": [
+        "aiter/ops/triton/_triton_kernels/gemm/batched/batched_gemm_a16wfp4.py",
+        "aiter/ops/triton/_triton_kernels/gemm/batched/batched_gemm_afp4wfp4.py"
+      ]
+    }
+  ],
+  "mongodb/mongo-python-driver": [
+    {
+      "pr_number": 3061,
+      "files": [
+        "pymongo/asynchronous/monitor.py",
+        "pymongo/periodic_executor.py",
+        "pymongo/synchronous/monitor.py",
+        "test/asynchronous/test_periodic_executor.py",
+        "test/asynchronous/test_subinterpreters.py",
+        "test/test_periodic_executor.py",
+        "test/test_subinterpreters.py"
+      ]
+    },
+    {
+      "pr_number": 3066,
+      "files": [
+        "pymongo/_version.py",
+        "pymongo/asynchronous/encryption.py",
+        "pymongo/asynchronous/uri_parser.py",
+        "pymongo/synchronous/encryption.py",
+        "pymongo/synchronous/uri_parser.py",
+        "pymongo/uri_parser_shared.py",
+        "test/asynchronous/test_encryption.py",
+        "test/test_bson.py",
+        "test/test_encryption.py",
+        "test/test_uri_parser.py"
+      ]
+    },
+    {
+      "pr_number": 3060,
+      "files": [
+        ".evergreen/scripts/generate_config.py",
+        ".evergreen/scripts/mod_wsgi_tester.py",
+        ".evergreen/scripts/run_tests.py",
+        ".evergreen/scripts/setup_tests.py",
+        ".evergreen/scripts/teardown_tests.py",
+        ".evergreen/scripts/utils.py"
+      ]
+    },
+    {
+      "pr_number": 3058,
+      "files": [
+        "pymongo/asynchronous/mongo_client.py",
+        "pymongo/synchronous/mongo_client.py"
+      ]
+    },
+    {
+      "pr_number": 3042,
+      "files": [
+        ".evergreen/scripts/generate_config.py",
+        ".evergreen/scripts/generate_config_utils.py",
+        ".evergreen/scripts/setup_tests.py",
+        "pymongo/network_layer.py",
+        "test/__init__.py",
+        "test/asynchronous/__init__.py",
+        "test/asynchronous/test_async_network_layer.py",
+        "test/asynchronous/test_client.py",
+        "test/asynchronous/test_monitor.py",
+        "test/test_client.py",
+        "test/test_daemon.py",
+        "test/test_monitor.py",
+        "test/test_uri_parser.py",
+        "test/utils_shared.py"
+      ]
+    },
+    {
+      "pr_number": 3033,
+      "files": [
+        "pymongo/asynchronous/cursor.py",
+        "pymongo/asynchronous/cursor_base.py",
+        "pymongo/cursor_shared.py",
+        "pymongo/synchronous/cursor.py",
+        "pymongo/synchronous/cursor_base.py"
+      ]
+    },
+    {
+      "pr_number": 3023,
+      "files": [
+        "pymongo/asynchronous/auth.py",
+        "pymongo/asynchronous/auth_oidc.py",
+        "pymongo/asynchronous/pool.py",
+        "pymongo/auth_oidc_shared.py",
+        "pymongo/auth_shared.py",
+        "pymongo/synchronous/auth.py",
+        "pymongo/synchronous/auth_oidc.py",
+        "pymongo/synchronous/pool.py",
+        "test/asynchronous/test_auth_oidc.py",
+        "test/test_auth_oidc.py"
+      ]
+    },
+    {
+      "pr_number": 2991,
+      "files": [
+        ".evergreen/scripts/generate_config.py",
+        "bson/json_util.py",
+        "pymongo/_otel.py",
+        "pymongo/_telemetry.py",
+        "pymongo/asynchronous/aggregation.py",
+        "pymongo/asynchronous/bulk.py",
+        "pymongo/asynchronous/client_bulk.py",
+        "pymongo/asynchronous/collection.py",
+        "pymongo/asynchronous/cursor.py",
+        "pymongo/asynchronous/cursor_base.py",
+        "pymongo/asynchronous/database.py",
+        "pymongo/asynchronous/mongo_client.py",
+        "pymongo/client_options.py",
+        "pymongo/common.py",
+        "pymongo/cursor_shared.py",
+        "pymongo/helpers_shared.py",
+        "pymongo/periodic_executor.py",
+        "pymongo/synchronous/aggregation.py",
+        "pymongo/synchronous/bulk.py",
+        "pymongo/synchronous/client_bulk.py",
+        "pymongo/synchronous/collection.py",
+        "pymongo/synchronous/cursor.py",
+        "pymongo/synchronous/cursor_base.py",
+        "pymongo/synchronous/database.py",
+        "pymongo/synchronous/mongo_client.py",
+        "test/asynchronous/test_common.py",
+        "test/asynchronous/test_operation_id_retry.py"
+      ]
+    },
+    {
+      "pr_number": 3045,
+      "files": [
+        "pymongo/asynchronous/command_cursor.py",
+        "pymongo/cursor_shared.py",
+        "pymongo/synchronous/command_cursor.py",
+        "pymongo/typings.py"
+      ]
+    }
+  ],
+  "HarleyCoops/Math-To-Manim": [
+    {
+      "pr_number": 74,
+      "files": [
+        "environments/m2m2_visual_improvement/m2m2_visual_improvement/__init__.py",
+        "environments/m2m2_visual_improvement/m2m2_visual_improvement/adapters/__init__.py",
+        "environments/m2m2_visual_improvement/m2m2_visual_improvement/adapters/common.py",
+        "environments/m2m2_visual_improvement/m2m2_visual_improvement/adapters/mythos.py",
+        "environments/m2m2_visual_improvement/m2m2_visual_improvement/adapters/sol.py",
+        "environments/m2m2_visual_improvement/m2m2_visual_improvement/dataset.py"
+      ]
+    },
+    {
+      "pr_number": 72,
+      "files": [
+        "grok/charters.py",
+        "grok/mcp_server.py",
+        "grok/service.py",
+        "mythos/cli.py",
+        "mythos/mcp_server.py",
+        "scripts/drive_mcp_pipeline.py",
+        "tests/test_grok_silo.py",
+        "tests/test_mcp_server.py"
+      ]
+    },
+    {
+      "pr_number": 71,
+      "files": [
+        "grok/cli.py",
+        "grok/client.py",
+        "grok/harness.py",
+        "grok/jsonutil.py",
+        "grok/tools.py",
+        "grok/validation.py",
+        "tests/test_grok_silo.py"
+      ]
+    },
+    {
+      "pr_number": 69,
+      "files": [
+        "grok/__init__.py",
+        "grok/charters.py",
+        "grok/cli.py",
+        "grok/client.py",
+        "grok/harness.py",
+        "grok/jsonutil.py",
+        "grok/models.py",
+        "grok/offline.py",
+        "grok/service.py",
+        "grok/tools.py",
+        "grok/validation.py",
+        "tests/test_grok_silo.py",
+        "tests/test_readme_learner_first.py"
+      ]
+    },
+    {
+      "pr_number": 68,
+      "files": [
+        "mythos/charter.py",
+        "mythos/harness.py",
+        "mythos/manifest_schema.py",
+        "mythos/prereq_cache.py",
+        "mythos/render.py",
+        "mythos/scene_checks.py",
+        "mythos/service.py",
+        "mythos/settings.py",
+        "sol/harness.py",
+        "sol/manifest_schema.py",
+        "sol/models.py",
+        "sol/offline.py",
+        "sol/prereq_cache.py",
+        "sol/rendering.py",
+        "sol/scene_checks.py",
+        "sol/service.py",
+        "sol/validation.py",
+        "tests/fixtures/cinematic_geodesic.scene.py",
+        "tests/fixtures/smoke_scene.py",
+        "tests/integration/test_e2e_smoke.py",
+        "tests/test_cinematic_defaults.py",
+        "tests/test_manifest_schema.py",
+        "tests/test_prereq_cache.py"
+      ]
+    },
+    {
+      "pr_number": 66,
+      "files": [
+        "mythos/__init__.py",
+        "mythos/mcp_server.py",
+        "tests/test_mcp_server.py"
+      ]
+    },
+    {
+      "pr_number": 65,
+      "files": [
+        "archive/codex-pipeline/math_to_manim/agents/base.py",
+        "legacy/Math-To-Manim/Gemini3/src/agents.py",
+        "legacy/Math-To-Manim/Gemini3/src/pipeline.py",
+        "tests/test_agent_security_configuration.py"
+      ]
+    },
+    {
+      "pr_number": 62,
+      "files": [
+        "examples/mythos/olin_off_white_3d_space.py",
+        "tests/test_olin_off_white_3d_scene.py",
+        "tests/test_olin_prompt.py",
+        "tests/test_readme_learner_first.py"
+      ]
+    },
+    {
+      "pr_number": 53,
+      "files": [
+        "math_to_manim/agents/codegen.py",
+        "math_to_manim/cli.py",
+        "math_to_manim/providers/codex_cli.py",
+        "math_to_manim/providers/fugu_api.py",
+        "math_to_manim/providers/mythos_cli.py",
+        "mythos/harness.py",
+        "tests/unit/test_codex_provider.py",
+        "tests/unit/test_config.py"
+      ]
+    },
+    {
+      "pr_number": 58,
+      "files": [
+        "mythos/gifs.py",
+        "sol/__init__.py",
+        "sol/api.py",
+        "sol/cli.py",
+        "sol/client.py",
+        "sol/contract.py",
+        "sol/harness.py",
+        "sol/manim.py",
+        "sol/models.py",
+        "sol/offline.py",
+        "sol/service.py",
+        "sol/validation.py",
+        "tests/test_sol_api.py",
+        "tests/test_sol_silo.py"
+      ]
+    },
+    {
+      "pr_number": 57,
+      "files": [
+        "sol/__init__.py",
+        "sol/api.py",
+        "sol/cli.py",
+        "sol/client.py",
+        "sol/manim.py",
+        "sol/models.py",
+        "sol/offline.py",
+        "sol/service.py",
+        "tests/test_sol_api.py",
+        "tests/test_sol_silo.py"
+      ]
+    }
+  ],
+  "raullenchai/Rapid-MLX": [
+    {
+      "pr_number": 3729,
+      "files": [
+        "rapid_mlx/models/qwen4_exp.py",
+        "rapid_mlx/models/qwen4_norm_convention.py",
+        "rapid_mlx/models/qwen4_ple_build.py",
+        "rapid_mlx/models/qwen4_ple_nvme.py",
+        "rapid_mlx/models/qwen4_ple_sidecar.py",
+        "rapid_mlx/utils/tokenizer.py",
+        "scripts/test_qwen4_norm_convention_cpu.py",
+        "scripts/test_qwen4_ple_sidecar.py",
+        "tests/test_no_out_of_band_routing.py"
+      ]
+    },
+    {
+      "pr_number": 3704,
+      "files": [
+        "rapid_mlx/mllm_batch_generator.py",
+        "rapid_mlx/share/cli.py",
+        "rapid_mlx/share/quicksilver.py",
+        "tests/test_mllm_cache_namespace_compat.py",
+        "tests/test_share_cli.py",
+        "tests/test_share_quicksilver.py"
+      ]
+    },
+    {
+      "pr_number": 3713,
+      "files": [
+        "rapid_mlx/models/qwen4_exp.py",
+        "rapid_mlx/models/qwen4_norm_convention.py",
+        "rapid_mlx/spec_decode/mtp/qwen4_exp_inject.py",
+        "scripts/test_qwen4_norm_convention_cpu.py",
+        "tests/test_qwen4_exp_vendored.py"
+      ]
+    },
+    {
+      "pr_number": 3715,
+      "files": [
+        "rapid_mlx/server.py",
+        "tests/test_telemetry_model_served_lanes.py"
+      ]
+    }
+  ],
+  "avibe-bot/avibe": [
+    {
+      "pr_number": 2169,
+      "files": [
+        "core/session_turns.py",
+        "modules/agents/codex/agent.py",
+        "tests/test_codex_agent.py",
+        "tests/test_codex_native_prompt_baseline.py",
+        "tests/test_codex_prompt_delivery_contract.py",
+        "tests/test_internal_server.py"
+      ]
+    },
+    {
+      "pr_number": 2165,
+      "files": [
+        "core/handlers/model_hub/migration.py",
+        "core/handlers/model_hub/migration_files.py",
+        "core/handlers/model_hub/migration_journal.py",
+        "core/handlers/model_hub/rpc.py",
+        "core/handlers/model_hub/service.py",
+        "tests/scenarios/model_hub/test_model_hub_configured_route_scenarios.py",
+        "tests/scenarios/model_hub/test_model_hub_migration_scenarios.py",
+        "tests/test_model_hub_migration_auth_mirror.py",
+        "tests/test_model_hub_migration_auth_recovery.py",
+        "tests/test_model_hub_migration_custody_history.py",
+        "tests/test_model_hub_migration_review_boundaries.py",
+        "tests/test_model_hub_migration_source_identity.py",
+        "tests/test_model_hub_migration_static_cleanup.py",
+        "tests/test_model_hub_migration_transport.py",
+        "tests/test_model_hub_native_takeover.py",
+        "tests/test_model_hub_persisted_inventory.py",
+        "tests/test_model_hub_persisted_migration.py",
+        "tests/test_model_hub_provisional_ownership.py",
+        "tests/test_model_hub_shell_core_inventory.py",
+        "tests/test_model_hub_shell_writer_roles.py",
+        "tests/test_model_hub_takeover_integration.py",
+        "tests/test_model_hub_takeover_inventory.py",
+        "tests/test_native_oauth_store.py",
+        "tests/test_native_process_inventory.py"
+      ]
+    },
+    {
+      "pr_number": 2156,
+      "files": [
+        "core/handlers/model_hub/adapter.py",
+        "core/handlers/model_hub/migration.py",
+        "core/handlers/model_hub/migration_files.py",
+        "core/handlers/model_hub/service.py",
+        "docs/plans/model-hub-contracts/adapter-interface.py",
+        "tests/e2e/test_model_hub_migration_persisted.py",
+        "tests/scenarios/model_hub/test_model_hub_migration_scenarios.py",
+        "tests/test_model_hub_api.py",
+        "tests/test_model_hub_migration_bearer.py",
+        "tests/test_model_hub_migration_source_identity.py",
+        "tests/test_model_hub_migration_static_cleanup.py",
+        "tests/test_model_hub_migration_transport.py",
+        "tests/test_model_hub_native_takeover.py",
+        "tests/test_model_hub_persisted_inventory.py",
+        "tests/test_model_hub_resolution.py",
+        "tests/test_model_hub_runtime.py",
+        "tests/test_model_hub_takeover_inventory.py"
+      ]
+    },
+    {
+      "pr_number": 2162,
+      "files": [
+        "core/handlers/model_hub/adapter.py",
+        "core/handlers/model_hub/service.py",
+        "docs/plans/model-hub-contracts/adapter-interface.py",
+        "tests/scenarios/auth_setup/test_auth_setup_scenarios.py",
+        "tests/test_model_hub_source_identity.py",
+        "vibe/model_hub_runtime/adapter.py",
+        "vibe/model_hub_runtime/state.py"
+      ]
+    },
+    {
+      "pr_number": 2062,
+      "files": [
+        "config/paths.py",
+        "config/v2_compat.py",
+        "core/backend_restart.py",
+        "core/control_ipc.py",
+        "core/controller.py",
+        "core/inbox_events.py",
+        "core/internal_server.py",
+        "core/runtime_work.py",
+        "core/show_runtime.py",
+        "core/update_checker.py",
+        "core/watches.py"
+      ]
+    },
+    {
+      "pr_number": 2145,
+      "files": [
+        "core/controller.py",
+        "core/handlers/session_handler.py",
+        "core/message_dispatcher.py",
+        "core/resource_governance.py",
+        "core/scheduled_tasks.py",
+        "core/services/running_agents.py",
+        "core/session_turns.py",
+        "modules/agents/base.py",
+        "modules/agents/claude_agent.py",
+        "modules/agents/codex/agent.py",
+        "modules/agents/opencode/agent.py",
+        "modules/agents/opencode/server.py",
+        "modules/agents/opencode/session.py",
+        "modules/agents/service.py",
+        "tests/test_agent_backend_alive.py",
+        "tests/test_agent_run_close_after.py",
+        "tests/test_agent_service.py",
+        "tests/test_claude_agent_sessions.py",
+        "tests/test_claude_receiver_result_settle.py",
+        "tests/test_cli_agent_run_schema.py",
+        "tests/test_codex_agent.py",
+        "tests/test_controller_dispatch_loop.py",
+        "tests/test_message_dispatcher_result_fallback.py",
+        "tests/test_multi_platform_runtime.py",
+        "tests/test_native_takeover_lifecycle.py"
+      ]
+    },
+    {
+      "pr_number": 2159,
+      "files": [
+        "core/process_isolation.py",
+        "modules/agents/codex/agent.py",
+        "modules/agents/codex/transport.py",
+        "modules/im/slack.py",
+        "scripts/release_package_version.py",
+        "tests/test_doctor_i18n.py",
+        "tests/test_telegram_bot.py",
+        "vibe/cli.py"
+      ]
+    },
+    {
+      "pr_number": 2157,
+      "files": [
+        "config/v2_config.py",
+        "tests/e2e/test_retired_updater_bridge.py",
+        "tests/scenarios/memory_upgrade_compatibility/test_catalog.py",
+        "tests/test_memory_removal.py",
+        "tests/test_memory_runtime_release_guard.py",
+        "tests/test_release_verification.py"
+      ]
+    },
+    {
+      "pr_number": 2153,
+      "files": [
+        "tests/scenarios/auth_setup/test_auth_setup_scenarios.py",
+        "tests/test_wechat_auth.py"
+      ]
+    },
+    {
+      "pr_number": 2114,
+      "files": [
+        "tests/scenarios/auth_setup/test_auth_setup_scenarios.py",
+        "tests/test_pairing_recovery.py",
+        "tests/test_remote_access_vibe_cloud.py",
+        "tests/test_vibe_cli.py",
+        "vibe/api.py",
+        "vibe/cli.py",
+        "vibe/remote_access.py",
+        "vibe/ui_server.py"
+      ]
+    },
+    {
+      "pr_number": 2120,
+      "files": [
+        "avibe_memory/__init__.py",
+        "avibe_memory/admission.py",
+        "avibe_memory/artifact.py",
+        "avibe_memory/artifact_contract.py",
+        "avibe_memory/attachments.py",
+        "avibe_memory/capture_adapter.py",
+        "avibe_memory/confined_filesystem.py",
+        "avibe_memory/data_reset.py",
+        "avibe_memory/everos.py",
+        "avibe_memory/everos_insight/__init__.py",
+        "avibe_memory/everos_insight/reader.py",
+        "avibe_memory/im_attachments.py",
+        "avibe_memory/migrations/__init__.py",
+        "avibe_memory/modality.py",
+        "avibe_memory/module.py",
+        "avibe_memory/native_processing_record.py",
+        "avibe_memory/observations.py",
+        "avibe_memory/process.py",
+        "avibe_memory/processing_record.py",
+        "avibe_memory/provider_root.py",
+        "avibe_memory/runtime.py"
+      ]
+    },
+    {
+      "pr_number": 2154,
+      "files": [
+        "tests/test_remote_access_vibe_cloud.py",
+        "vibe/ui_server.py"
+      ]
+    },
+    {
+      "pr_number": 2155,
+      "files": [
+        "core/handlers/model_hub/catalog_admission.py",
+        "tests/test_backend_model_catalog.py",
+        "tests/test_model_hub_api.py",
+        "tests/test_model_hub_resolution.py"
+      ]
+    }
+  ],
+  "sandbox-quantum/switch": [
+    {
+      "pr_number": 488,
+      "files": [
+        "core/switch_core/bridges/agent/protocol/connections.py",
+        "core/switch_core/bridges/agent/protocol/event_buffer.py",
+        "core/switch_core/bridges/agent/protocol/service.py",
+        "core/switch_core/bridges/agent/server_connectors/lifecycle.py",
+        "core/switch_core/bridges/collaboration/bridge_core.py",
+        "core/switch_core/bridges/collaboration/lifecycle_service.py",
+        "core/switch_core/bridges/resource/service.py",
+        "core/switch_core/clients/client_lifecycle_service.py"
+      ]
+    },
+    {
+      "pr_number": 525,
+      "files": [
+        "core/switch_core/bridges/agent/protocol/service.py",
+        "core/switch_core/bridges/collaboration/lifecycle_service.py",
+        "core/switch_core/clients/client_lifecycle_service.py",
+        "core/switch_core/db/stores/agent_store.py",
+        "core/switch_core/db/stores/client_store.py",
+        "core/tests/switch_core/bridges/agent/protocol/test_bridge_identity_tenant_scope.py",
+        "core/tests/switch_core/bridges/agent/protocol/test_delete_agent.py",
+        "core/tests/switch_core/bridges/agent/test_api_key_cache.py",
+        "core/tests/switch_core/bridges/collaboration/test_lifecycle_remove.py",
+        "core/tests/switch_core/db/stores/test_client_store.py"
+      ]
+    },
+    {
+      "pr_number": 501,
+      "files": [
+        "core/switch_core/db/models.py",
+        "core/switch_core/db/stores/template_store.py",
+        "core/switch_core/gateway/schemas.py",
+        "core/switch_core/gateway/templates.py",
+        "core/switch_core/migrations/versions/c4d8e2a1f6b3_templates_visibility.py",
+        "core/tests/switch_core/db/stores/test_template_store.py",
+        "core/tests/switch_core/gateway/test_template_routes.py",
+        "core/tests/switch_core/test_rooms_yaml.py"
+      ]
+    },
+    {
+      "pr_number": 412,
+      "files": [
+        "core/switch_core/bridges/agent/protocol/connections.py",
+        "core/switch_core/bridges/agent/protocol/event_buffer.py",
+        "core/switch_core/bridges/agent/protocol/service.py",
+        "core/switch_core/clients/agent_client.py",
+        "core/switch_core/clients/client_base.py",
+        "core/switch_core/provisioning/postgres.py",
+        "core/switch_core/room_service.py",
+        "core/switch_core/transport/invites.py",
+        "core/switch_core/transport/port.py",
+        "core/switch_core/transport/postgres.py",
+        "core/tests/integration/test_removal_stops_delivery_e2e.py",
+        "core/tests/switch_core/bridges/agent/protocol/test_connections.py",
+        "core/tests/switch_core/bridges/agent/protocol/test_event_buffer.py",
+        "core/tests/switch_core/bridges/agent/protocol/test_event_buffer_resume.py",
+        "core/tests/switch_core/bridges/agent/protocol/test_poll_events_membership.py",
+        "core/tests/switch_core/bridges/agent/protocol/test_stream.py",
+        "core/tests/switch_core/clients/test_removed_from_room.py",
+        "core/tests/switch_core/provisioning/test_postgres_provisioning.py",
+        "core/tests/switch_core/test_room_service_pool_holds.py",
+        "core/tests/switch_core/transport/test_invites.py",
+        "core/tests/switch_core/transport/test_postgres_transport.py"
+      ]
+    },
+    {
+      "pr_number": 527,
+      "files": [
+        "core/switch_core/artifacts.py",
+        "core/switch_core/sessions/service.py",
+        "core/tests/switch_core/sessions/test_room_messages.py"
+      ]
+    },
+    {
+      "pr_number": 515,
+      "files": [
+        "core/tests/deploy/__init__.py",
+        "core/tests/deploy/test_setup_register_bridge.py",
+        "deploy/shared_resources/setup.py"
+      ]
+    },
+    {
+      "pr_number": 491,
+      "files": [
+        "core/switch_core/bridges/agent/app.py",
+        "core/switch_core/bridges/agent/protocol/connections.py",
+        "core/switch_core/bridges/agent/protocol/event_buffer.py",
+        "core/switch_core/bridges/agent/server_connectors/lifecycle.py",
+        "core/switch_core/bridges/collaboration/bridge_core.py",
+        "core/switch_core/bridges/collaboration/lifecycle_service.py",
+        "core/switch_core/clients/client_lifecycle_service.py",
+        "core/switch_core/config.py",
+        "core/switch_core/main.py",
+        "core/switch_core/observability/__init__.py",
+        "core/switch_core/observability/bootstrap.py",
+        "core/switch_core/observability/catalogue.py",
+        "core/switch_core/observability/exporter.py",
+        "core/switch_core/observability/health.py",
+        "core/switch_core/observability/http.py",
+        "core/switch_core/observability/logs.py",
+        "core/switch_core/observability/metrics.py",
+        "core/switch_core/observability/otlp.py",
+        "core/switch_core/observability/pool.py",
+        "core/switch_core/observability/runtime.py",
+        "core/switch_core/transport/postgres.py",
+        "core/tests/switch_core/bridges/collaboration/test_bridge_inbound_tenant_binding.py",
+        "core/tests/switch_core/bridges/collaboration/test_bridge_metrics.py",
+        "core/tests/switch_core/bridges/collaboration/test_bridge_outbound_admin_rendering.py",
+        "core/tests/switch_core/bridges/collaboration/test_bridge_outbound_media.py",
+        "core/tests/switch_core/bridges/collaboration/test_bridge_outbound_platform_rendering.py",
+        "core/tests/switch_core/db/test_tenant_exemption_allowlist.py"
+      ]
+    }
+  ],
+  "heymrun/heym": [
+    {
+      "pr_number": 588,
+      "files": [
+        "backend/app/services/expression_evaluator.py",
+        "backend/tests/test_expression_evaluator_service.py"
+      ]
+    },
+    {
+      "pr_number": 587,
+      "files": [
+        "backend/app/services/agent_tool_observability.py",
+        "backend/app/services/context_compressor.py",
+        "backend/app/services/llm_service.py",
+        "backend/app/services/model_router.py",
+        "backend/app/services/text_truncation.py",
+        "backend/tests/test_advisory_model_router_sharing.py",
+        "backend/tests/test_advisory_tool_payload_head_tail.py",
+        "backend/tests/test_agent_tool_observability.py",
+        "backend/tests/test_context_compressor.py",
+        "backend/tests/test_model_router.py",
+        "backend/tests/test_model_router_llm_service.py",
+        "backend/tests/test_text_truncation.py"
+      ]
+    },
+    {
+      "pr_number": 585,
+      "files": [
+        "backend/alembic/versions/127_add_dashboard_shares.py",
+        "backend/app/api/dashboards.py",
+        "backend/app/api/teams.py",
+        "backend/app/db/models.py",
+        "backend/app/models/dashboard_schemas.py",
+        "backend/app/services/dashboard_access.py",
+        "backend/app/services/dashboard_data.py",
+        "backend/app/services/workflow_access.py",
+        "backend/tests/test_advisory_team_execution_token_revocation.py",
+        "backend/tests/test_alembic_migrations.py",
+        "backend/tests/test_audit_log.py",
+        "backend/tests/test_dashboard_data_cache.py",
+        "backend/tests/test_dashboard_sharing.py",
+        "backend/tests/test_dashboards_api.py",
+        "backend/tests/test_workflow_access.py"
+      ]
+    },
+    {
+      "pr_number": 580,
+      "files": [
+        "backend/app/api/avatars.py",
+        "backend/app/main.py",
+        "backend/app/services/gravatar.py",
+        "backend/tests/test_gravatar_avatars.py"
+      ]
+    },
+    {
+      "pr_number": 579,
+      "files": [
+        "backend/alembic/versions/126_eval_run_judge_columns.py",
+        "backend/app/api/evals.py",
+        "backend/app/db/models.py",
+        "backend/app/models/eval_schemas.py",
+        "backend/app/services/decision_models.py",
+        "backend/app/services/eval_service.py",
+        "backend/tests/test_alembic_migrations.py",
+        "backend/tests/test_decision_models.py",
+        "backend/tests/test_eval_judge.py"
+      ]
+    },
+    {
+      "pr_number": 577,
+      "files": [
+        "backend/app/api/ai_assistant.py",
+        "backend/tests/test_dashboard_chat_trace.py"
+      ]
+    },
+    {
+      "pr_number": 576,
+      "files": [
+        "backend/app/api/ai_assistant.py",
+        "backend/app/api/chats.py",
+        "backend/app/services/credential_catalog.py",
+        "backend/app/services/generated_credentials.py",
+        "backend/app/services/http_credential_catalog.py",
+        "backend/app/services/workflow_dsl_prompt.py",
+        "backend/tests/test_advisory_credential_catalog_no_values.py",
+        "backend/tests/test_chat_credential_mode.py",
+        "backend/tests/test_clarify_protocol_prompt.py",
+        "backend/tests/test_credential_catalog.py",
+        "backend/tests/test_dashboard_chat_api.py",
+        "backend/tests/test_generated_credentials.py",
+        "backend/tests/test_http_credential_catalog.py",
+        "backend/tests/test_workflow_assistant_stream.py"
+      ]
+    },
+    {
+      "pr_number": 575,
+      "files": [
+        "backend/app/api/ai_assistant.py",
+        "backend/app/api/mcp.py",
+        "backend/app/api/workflows.py",
+        "backend/app/services/credential_context.py",
+        "backend/app/services/google_drive_service.py",
+        "backend/app/services/google_sheets_service.py",
+        "backend/app/services/http_credential_catalog.py",
+        "backend/app/services/workflow_dsl_prompt.py",
+        "backend/app/services/workflow_executor.py",
+        "backend/tests/test_advisory_header_credential_masking.py",
+        "backend/tests/test_clarify_protocol_prompt.py",
+        "backend/tests/test_credential_context_values.py",
+        "backend/tests/test_dashboard_chat_api.py",
+        "backend/tests/test_http_credential_catalog.py",
+        "backend/tests/test_workflow_assistant_stream.py",
+        "backend/tests/test_workflow_execution_api.py"
+      ]
+    },
+    {
+      "pr_number": 573,
+      "files": [
+        "backend/app/api/playwright.py",
+        "backend/app/services/agent_memory_service.py",
+        "backend/app/services/mcp_chat_service.py",
+        "backend/tests/test_mcp_chat_tool.py",
+        "backend/tests/test_model_router_surfaces.py"
+      ]
+    },
+    {
+      "pr_number": 571,
+      "files": [
+        "backend/alembic/versions/124_add_model_router_cred_type.py",
+        "backend/alembic/versions/125_llm_trace_router_columns.py",
+        "backend/app/api/ai_assistant.py",
+        "backend/app/api/alerts.py",
+        "backend/app/api/chats.py",
+        "backend/app/api/credentials.py",
+        "backend/app/api/dashboards.py",
+        "backend/app/api/data_tables.py",
+        "backend/app/api/decisions.py",
+        "backend/app/api/expressions.py",
+        "backend/app/api/mcp.py",
+        "backend/app/api/playwright.py",
+        "backend/app/api/skill_builder.py",
+        "backend/app/api/traces.py",
+        "backend/app/db/models.py",
+        "backend/app/models/schemas.py",
+        "backend/app/services/agent_memory_service.py",
+        "backend/app/services/agent_tool_observability.py",
+        "backend/app/services/board_mapper_service.py",
+        "backend/app/services/eval_service.py",
+        "backend/app/services/llm_service.py",
+        "backend/app/services/llm_trace.py",
+        "backend/app/services/model_router.py",
+        "backend/app/services/node_execution/nodes/llm_node.py",
+        "backend/app/services/workflow_dsl_prompt.py",
+        "backend/app/services/workflow_executor.py",
+        "backend/tests/test_advisory_model_router_sharing.py",
+        "backend/tests/test_alembic_migrations.py",
+        "backend/tests/test_board_mapper_service.py",
+        "backend/tests/test_dashboard_chat_api.py"
+      ]
+    },
+    {
+      "pr_number": 569,
+      "files": [
+        "backend/alembic/versions/123_add_decision_cred_type.py",
+        "backend/app/api/credentials.py",
+        "backend/app/api/decisions.py",
+        "backend/app/db/models.py",
+        "backend/app/main.py",
+        "backend/app/models/schemas.py",
+        "backend/app/services/cluster/node_placement.py",
+        "backend/app/services/decision_models.py",
+        "backend/app/services/node_execution/nodes/decision_node.py",
+        "backend/app/services/node_execution/registry.py",
+        "backend/app/services/workflow_dsl_prompt.py",
+        "backend/tests/test_advisory_shared_credential_test_override.py",
+        "backend/tests/test_alembic_migrations.py",
+        "backend/tests/test_cluster_node_placement.py",
+        "backend/tests/test_decision_credentials.py",
+        "backend/tests/test_decision_models.py",
+        "backend/tests/test_decision_node.py",
+        "backend/tests/test_decision_question_generation.py"
+      ]
+    },
+    {
+      "pr_number": 568,
+      "files": [
+        "backend/app/models/schemas.py",
+        "backend/app/services/llm_provider.py",
+        "backend/app/services/llm_service.py",
+        "backend/app/services/llm_transport.py",
+        "backend/app/services/node_execution/nodes/llm_node.py",
+        "backend/app/services/workflow_dsl_prompt.py",
+        "backend/app/services/workflow_executor.py",
+        "backend/tests/test_llm_provider.py",
+        "backend/tests/test_llm_responses_api.py",
+        "backend/tests/test_llm_transport.py",
+        "backend/tests/test_observability_tracing.py"
+      ]
+    },
+    {
+      "pr_number": 564,
+      "files": [
+        "backend/app/api/ai_assistant.py",
+        "backend/app/api/hitl.py",
+        "backend/app/services/hitl_service.py",
+        "backend/tests/test_hitl_decision_atomic_claim.py"
+      ]
+    }
+  ],
+  "compdemocracy/polis": [
+    {
+      "pr_number": 2869,
+      "files": [
+        "ci/private_cert/public_revote_columns.py",
+        "delphi/polismath/conversation/conversation.py",
+        "delphi/tests/test_conversation.py",
+        "delphi/tests/test_legacy_blob_shape.py",
+        "delphi/tests/test_null_vote_fold.py",
+        "delphi/tests/test_pca_column_order.py"
+      ]
+    },
+    {
+      "pr_number": 2868,
+      "files": [
+        "ci/private_cert/images/attribution.py",
+        "ci/private_cert/images/g12.py",
+        "ci/private_cert/images/gate.py",
+        "ci/private_cert/images/probe.py",
+        "ci/private_cert/public_legacy_restart.py",
+        "ci/private_cert/test_diagnostics.py",
+        "ci/private_cert/test_legacy_pca_restart.py",
+        "ci/probe_box/receipt.py",
+        "ci/probe_box/test_receipt5.py",
+        "delphi/polismath/replay/certify.py",
+        "delphi/polismath/replay/legacy_pca.py"
+      ]
+    },
+    {
+      "pr_number": 2864,
+      "files": [
+        "delphi/polismath/conversation/conversation.py",
+        "delphi/polismath/pca_kmeans_rep/legacy_kmeans.py",
+        "delphi/polismath/pca_kmeans_rep/pca.py",
+        "delphi/tests/test_legacy_kmeans.py",
+        "delphi/tests/test_most_distal_distance.py",
+        "delphi/tests/test_pca_operation_parity.py",
+        "delphi/tests/test_powerit_pca.py"
+      ]
+    },
+    {
+      "pr_number": 2866,
+      "files": [
+        "delphi/polismath/pca_kmeans_rep/legacy_kmeans.py",
+        "delphi/tests/test_convergence_distance.py"
+      ]
+    },
+    {
+      "pr_number": 2865,
+      "files": [
+        "ci/private_cert/images/attribution.py",
+        "ci/private_cert/images/gate.py",
+        "ci/private_cert/images/probe.py",
+        "ci/private_cert/images/recipe.py",
+        "ci/private_cert/test_attribution.py",
+        "ci/private_cert/test_attribution_degradation.py",
+        "ci/private_cert/test_diagnostics.py",
+        "ci/private_cert/test_probe.py",
+        "ci/probe_box/receipt.py",
+        "ci/probe_box/test_receipt5.py",
+        "delphi/polismath/replay/attribution_capture.py",
+        "delphi/polismath/replay/driver.py",
+        "delphi/scripts/replay_driver.py",
+        "delphi/tests/replay_harness/test_attribution_observer.py"
+      ]
+    },
+    {
+      "pr_number": 2863,
+      "files": [
+        "delphi/polismath/conversation/conversation.py",
+        "delphi/tests/test_null_vote_fold.py"
+      ]
+    },
+    {
+      "pr_number": 2860,
+      "files": [
+        "ci/private_cert/images/diagnostic_projection.py",
+        "ci/private_cert/images/g12.py",
+        "ci/private_cert/images/probe.py",
+        "ci/private_cert/test_diagnostic_details.py",
+        "ci/private_cert/test_diagnostics.py",
+        "ci/probe_box/receipt.py",
+        "ci/probe_box/test_receipt4.py",
+        "delphi/polismath/regression/comparer.py",
+        "delphi/polismath/replay/certify.py",
+        "delphi/polismath/replay/diagnostics.py",
+        "delphi/polismath/replay/stepcompare.py"
+      ]
+    },
+    {
+      "pr_number": 2859,
+      "files": [
+        "delphi/polismath/pca_kmeans_rep/repness.py",
+        "delphi/tests/test_repness_fallback_precision.py"
+      ]
+    },
+    {
+      "pr_number": 2858,
+      "files": [
+        "ci/private_cert/images/gate.py",
+        "ci/private_cert/images/probe.py",
+        "ci/private_cert/test_engine_deadline.py",
+        "ci/private_cert/test_paired_gate.py",
+        "ci/probe_box/boot_report.py",
+        "ci/probe_box/receipt.py",
+        "ci/probe_box/run.py",
+        "ci/probe_box/test_boot_report.py",
+        "ci/probe_box/test_boundaries.py",
+        "ci/probe_box/test_jobs.py",
+        "ci/probe_box/test_runtime.py",
+        "ci/probe_box/vocabulary.py",
+        "ci/probe_box/worker.py",
+        "delphi/polismath/replay/certify.py"
+      ]
+    },
+    {
+      "pr_number": 2857,
+      "files": [
+        "ci/private_cert/images/gate.py",
+        "ci/private_cert/images/probe.py",
+        "ci/private_cert/test_engine_deadline.py",
+        "ci/private_cert/test_paired_gate.py",
+        "ci/probe_box/receipt.py",
+        "ci/probe_box/run.py",
+        "ci/probe_box/test_jobs.py",
+        "ci/probe_box/worker.py",
+        "delphi/polismath/replay/certify.py"
+      ]
+    },
+    {
+      "pr_number": 2855,
+      "files": [
+        "ci/private_cert/images/diagnostic_projection.py",
+        "ci/private_cert/images/g12.py",
+        "ci/private_cert/images/gate.py",
+        "ci/private_cert/images/probe.py",
+        "ci/private_cert/images/recipe.py",
+        "ci/private_cert/images/selection_context.py",
+        "ci/private_cert/test_diagnostics.py",
+        "ci/private_cert/test_probe.py",
+        "ci/probe_box/contracts.py",
+        "ci/probe_box/receipt.py",
+        "ci/probe_box/run.py",
+        "ci/probe_box/test_boundaries.py",
+        "ci/probe_box/test_contracts.py",
+        "ci/probe_box/test_jobs.py",
+        "ci/probe_box/test_receipt3.py",
+        "ci/probe_box/test_run.py",
+        "ci/probe_box/worker.py",
+        "delphi/polismath/regression/comparer.py",
+        "delphi/polismath/replay/certify.py",
+        "delphi/polismath/replay/diagnostics.py",
+        "delphi/polismath/replay/fixture_config.py",
+        "delphi/polismath/replay/stepcompare.py",
+        "delphi/tests/test_certify_probe_config.py"
+      ]
+    }
+  ],
+  "jjang-ai/vmlx": [
+    {
+      "pr_number": 290,
+      "files": [
+        "tests/test_block_disk_write_fence.py",
+        "vmlx_engine/prefix_cache.py"
+      ]
+    },
+    {
+      "pr_number": 287,
+      "files": [
+        "tests/test_m3_text_only_environment.py",
+        "vmlx_engine/cli.py",
+        "vmlx_engine/models/minimax_m3/m3_vl_preprocess.py"
+      ]
+    },
+    {
+      "pr_number": 286,
+      "files": [
+        "tests/test_anthropic_adapter.py",
+        "tests/test_anthropic_media_validation.py",
+        "tests/test_chat_explicit_cancel_terminal.py",
+        "tests/test_native_adaptive_reasoning.py",
+        "tests/test_omni_bundle_identity.py",
+        "tests/test_omni_cache_bypass.py"
+      ]
+    },
+    {
+      "pr_number": 285,
+      "files": [
+        "tests/test_anthropic_output_config.py",
+        "vmlx_engine/api/anthropic_adapter.py"
+      ]
+    },
+    {
+      "pr_number": 284,
+      "files": [
+        "tests/test_anthropic_adapter.py",
+        "tests/test_reasoning_budget_parity.py",
+        "vmlx_engine/api/anthropic_adapter.py",
+        "vmlx_engine/api/models.py"
+      ]
+    },
+    {
+      "pr_number": 283,
+      "files": [
+        "tests/test_mllm_streaming_finalization.py",
+        "tests/test_vl_video_regression.py"
+      ]
+    },
+    {
+      "pr_number": 282,
+      "files": [
+        "tests/test_gemma4_image_budget_runtime.py",
+        "tests/test_image_budget_adapter_parity.py",
+        "tests/test_image_controls.py",
+        "tests/test_media_checkpoint_retry.py",
+        "tests/test_video_controls.py",
+        "tests/test_vl_video_regression.py",
+        "vmlx_engine/api/anthropic_adapter.py",
+        "vmlx_engine/api/ollama_adapter.py",
+        "vmlx_engine/mllm_batch_generator.py",
+        "vmlx_engine/runtime_patches/gemma4_vision.py",
+        "vmlx_engine/video_controls.py"
+      ]
+    },
+    {
+      "pr_number": 277,
+      "files": [
+        "tests/test_qwen_xml_string_arguments.py",
+        "vmlx_engine/tool_parsers/abstract_tool_parser.py",
+        "vmlx_engine/tool_parsers/qwen_tool_parser.py",
+        "vmlx_engine/tool_parsers/xml_function_tool_parser.py"
+      ]
+    },
+    {
+      "pr_number": 276,
+      "files": [
+        "tests/test_xml_function_tool_parser.py",
+        "vmlx_engine/__init__.py",
+        "vmlx_engine/tool_parsers/abstract_tool_parser.py",
+        "vmlx_engine/tool_parsers/xml_function_tool_parser.py"
+      ]
+    },
+    {
+      "pr_number": 275,
+      "files": [
+        "tests/test_jang_bonsai2_runtime.py",
+        "vmlx_engine/prefix_cache.py",
+        "vmlx_engine/utils/jang_hadamard.py",
+        "vmlx_engine/utils/jang_loader.py"
+      ]
+    },
+    {
+      "pr_number": 273,
+      "files": [
+        "tests/test_jang_bonsai2_runtime.py",
+        "vmlx_engine/metal/quantized_projection_group.py",
+        "vmlx_engine/utils/jang_hadamard.py",
+        "vmlx_engine/utils/jang_loader.py",
+        "vmlx_engine/utils/jang_ternary_packed.py"
+      ]
+    },
+    {
+      "pr_number": 270,
+      "files": [
+        "bench/qwen4_logit_gate.py",
+        "bench/qwen4_quality_gate.py",
+        "bench/qwen4_speed_gate.py",
+        "benchmarks/qwen4_compact_attention.py",
+        "benchmarks/qwen4_gdn_prefill.py",
+        "benchmarks/qwen4_sparse_prefill.py",
+        "native_extensions/qsa_kernels/mtplx_qsa_kernels/__init__.py",
+        "native_extensions/qsa_kernels/setup.py",
+        "tests/test_native_mtp_contract.py",
+        "tests/test_qsa_selector_prefix_contract.py",
+        "tests/test_qwen4_aligned_moe_prefill.py",
+        "tests/test_qwen4_exp_qsa_rope_qualification.py"
+      ]
+    }
+  ],
+  "spcl/dace": [
+    {
+      "pr_number": 2594,
+      "files": [
+        "dace/data/core.py",
+        "tests/datadesc_test.py"
+      ]
+    },
+    {
+      "pr_number": 2597,
+      "files": [
+        "dace/sdfg/graph.py",
+        "dace/transformation/passes/pattern_matching.py",
+        "tests/sdfg/node_lookup_test.py"
+      ]
+    },
+    {
+      "pr_number": 2602,
+      "files": [
+        "dace/codegen/compiler.py",
+        "dace/config.py",
+        "tests/config_env_defaults_test.py",
+        "tests/inlining_test.py",
+        "tests/npbench/deep_learning/lenet_test.py",
+        "tests/npbench/polybench/correlation_test.py",
+        "tests/npbench/polybench/covariance_test.py",
+        "tests/npbench/polybench/ludcmp_test.py",
+        "tests/npbench/polybench/trmm_test.py",
+        "tests/npbench/weather_stencils/vadv_test.py",
+        "tests/python_frontend/nested_name_accesses_test.py",
+        "tests/sdfg/custom_build_folder_test.py"
+      ]
+    },
+    {
+      "pr_number": 2599,
+      "files": [
+        "dace/codegen/compiler.py",
+        "tests/compile_folder_mode_test.py"
+      ]
+    },
+    {
+      "pr_number": 2610,
+      "files": [
+        "dace/sdfg/infer_types.py",
+        "dace/transformation/passes/canonicalize/loop_to_conditional_reduce.py",
+        "dace/transformation/passes/canonicalize/loop_to_einsum.py",
+        "dace/transformation/passes/canonicalize/loop_to_symmetrize.py",
+        "dace/transformation/passes/canonicalize/loop_to_transpose.py",
+        "dace/transformation/passes/canonicalize/normalize_loop_and_map_origin.py",
+        "dace/transformation/passes/canonicalize/normalize_loops_and_maps.py",
+        "dace/transformation/passes/canonicalize/pipeline.py",
+        "dace/transformation/passes/canonicalize/privatize_reduction_accumulator.py",
+        "dace/transformation/passes/canonicalize/wavefront_skew.py",
+        "dace/transformation/passes/offloading/host_maps.py",
+        "dace/transformation/passes/offloading/offload_to_accelerator.py",
+        "dace/transformation/passes/offset_loop_and_maps.py",
+        "dace/transformation/passes/scatter_to_guarded_maps.py",
+        "dace/transformation/passes/unique_loop_iterators.py",
+        "dace/transformation/passes/vectorization/branch_normalization.py",
+        "dace/transformation/passes/vectorization/bypass_trivial_assign_tasklets.py",
+        "dace/transformation/passes/vectorization/lift_map_reduction.py",
+        "dace/transformation/passes/vectorization/same_write_set_if_else_to_ite_cfg.py",
+        "dace/transformation/passes/vectorization/utils/reductions.py",
+        "dace/transformation/passes/vectorization/utils/tile_access.py",
+        "tests/canonicalize/canonicalize_loop_to_conditional_reduce_test.py",
+        "tests/canonicalize/canonicalize_wavefront_skew_test.py",
+        "tests/canonicalize/loop_to_einsum_test.py",
+        "tests/default_storage_test.py",
+        "tests/offloading/host_maps_test.py",
+        "tests/passes/canonicalize/normalize_loop_and_map_origin_test.py",
+        "tests/passes/offload_to_accelerator_test.py",
+        "tests/passes/privatize_reduction_accumulator_test.py",
+        "tests/passes/scatter_to_guarded_maps_test.py"
+      ]
+    },
+    {
+      "pr_number": 2587,
+      "files": [
+        "dace/sdfg/analysis/schedule_tree/tree_to_sdfg.py",
+        "tests/schedule_tree/roundtrip_test.py",
+        "tests/schedule_tree/to_sdfg_test.py"
+      ]
+    },
+    {
+      "pr_number": 2569,
+      "files": [
+        "dace/sdfg/utils.py",
+        "tests/sdfg/utils_test.py"
+      ]
+    },
+    {
+      "pr_number": 2586,
+      "files": [
+        "dace/transformation/interstate/sdfg_nesting.py",
+        "tests/inlining_test.py"
+      ]
+    },
+    {
+      "pr_number": 2576,
+      "files": [
+        "dace/sdfg/state.py",
+        "tests/sdfg/loop_region_test.py"
+      ]
+    },
+    {
+      "pr_number": 2585,
+      "files": [
+        "dace/codegen/targets/cpu.py",
+        "tests/codegen/nested_sdfg_hoisted_transient_test.py"
+      ]
+    },
+    {
+      "pr_number": 2584,
+      "files": [
+        "dace/codegen/targets/framecode.py",
+        "dace/data/core.py",
+        "dace/sdfg/state.py",
+        "dace/sdfg/validation.py",
+        "tests/codegen/view_allocation_test.py"
+      ]
+    },
+    {
+      "pr_number": 2573,
+      "files": [
+        "dace/sdfg/graph.py",
+        "tests/sdfg/all_nodes_between_sink_test.py"
+      ]
+    },
+    {
+      "pr_number": 2583,
+      "files": [
+        "dace/sdfg/replace.py",
+        "dace/sdfg/sdfg.py",
+        "dace/sdfg/state.py",
+        "dace/transformation/subgraph/expansion.py",
+        "tests/sdfg/replace_list_property_test.py",
+        "tests/sdfg/replace_symbol_types_test.py"
+      ]
+    },
+    {
+      "pr_number": 2588,
+      "files": [
+        "dace/frontend/python/newast.py",
+        "tests/codegen/alias_test.py",
+        "tests/python_frontend/argument_test.py",
+        "tests/schedule_tree/schedule_test.py"
+      ]
+    },
+    {
+      "pr_number": 2582,
+      "files": [
+        "dace/codegen/targets/cpp.py",
+        "tests/codegen/wcr_atomic_test.py"
+      ]
+    }
+  ],
+  "sipyourdrink-ltd/bernstein": [
+    {
+      "pr_number": 5721,
+      "files": [
+        "src/bernstein/adapters/skyvern.py",
+        "src/bernstein/cli/commands/advanced_cmd.py",
+        "src/bernstein/cli/commands/auth_cmd.py",
+        "src/bernstein/cli/run_bootstrap.py",
+        "src/bernstein/cli/run_confirm.py",
+        "src/bernstein/core/autofix/daemon.py",
+        "src/bernstein/core/orchestration/orchestrator_cleanup.py",
+        "tests/unit/test_bounded_waits_use_monotonic.py",
+        "tests/unit/test_orchestrator_liveness_verdict.py",
+        "tests/unit/test_run_summary_issue_953.py"
+      ]
+    },
+    {
+      "pr_number": 6238,
+      "files": [
+        "src/bernstein/cli/commands/mcp_catalog_cmd.py",
+        "src/bernstein/cli/commands/skills_catalog_cmd.py",
+        "src/bernstein/core/protocols/catalog_fetch.py",
+        "src/bernstein/core/protocols/mcp_catalog/fetcher.py",
+        "src/bernstein/core/skills/catalog/enforcement.py",
+        "src/bernstein/core/skills/catalog/fetcher.py",
+        "tests/conftest.py",
+        "tests/unit/core/skills/test_catalog_enforcement.py",
+        "tests/unit/core/skills/test_catalog_fetcher_cache.py",
+        "tests/unit/protocols/mcp_catalog/test_fetcher_conditional.py",
+        "tests/unit/test_skills_injector.py",
+        "tests/unit/test_verify_result_field_shape_collisions.py"
+      ]
+    },
+    {
+      "pr_number": 5990,
+      "files": [
+        "scripts/quorum_check.py",
+        "tests/unit/scripts/test_quorum_check.py"
+      ]
+    },
+    {
+      "pr_number": 6227,
+      "files": [
+        "src/bernstein/core/security/approval.py",
+        "tests/unit/test_approval_gate_refusal_recording.py"
+      ]
+    },
+    {
+      "pr_number": 6170,
+      "files": [
+        "src/bernstein/core/sandbox/resource_lease.py",
+        "tests/unit/sandbox/test_resource_lease.py"
+      ]
+    },
+    {
+      "pr_number": 6147,
+      "files": [
+        "src/bernstein/core/volunteer/adapter_selection.py",
+        "src/bernstein/core/volunteer/runner.py",
+        "tests/unit/volunteer/test_adapter_selection.py",
+        "tests/unit/volunteer/test_claim.py",
+        "tests/unit/volunteer/test_runner.py"
+      ]
+    },
+    {
+      "pr_number": 6228,
+      "files": [
+        "scripts/check_routes_broad_except.py",
+        "src/bernstein/core/agents/agent_trust.py",
+        "src/bernstein/core/approval/queue.py",
+        "src/bernstein/core/cost/cost_tracker.py",
+        "src/bernstein/core/quality/graduation.py",
+        "src/bernstein/core/routes/approvals.py",
+        "src/bernstein/core/routes/discord.py",
+        "src/bernstein/core/routes/slack.py",
+        "src/bernstein/core/routes/status_lifecycle.py",
+        "src/bernstein/core/trigger_sources/receipt.py",
+        "src/bernstein/core/trigger_sources/webhook_node.py",
+        "src/bernstein/github_app/webhooks.py",
+        "tests/unit/test_codeql_sanitizer_model.py"
+      ]
+    },
+    {
+      "pr_number": 6101,
+      "files": [
+        "src/bernstein/core/observability/schema_registry.py",
+        "tests/unit/test_observability_schema_registry.py"
+      ]
+    }
+  ],
+  "gradio-app/trackio": [
+    {
+      "pr_number": 693,
+      "files": [
+        "tests/unit/test_artifact.py",
+        "tests/unit/test_artifact_e2e.py",
+        "trackio/__init__.py",
+        "trackio/run.py",
+        "trackio/server.py",
+        "trackio/sqlite_storage.py"
+      ]
+    },
+    {
+      "pr_number": 682,
+      "files": [
+        "tests/unit/test_artifact_persistence.py",
+        "tests/unit/test_registry.py",
+        "tests/unit/test_registry_bucket.py",
+        "tests/unit/test_registry_resolution.py",
+        "trackio/artifact.py",
+        "trackio/cli.py",
+        "trackio/registry_bucket.py",
+        "trackio/registry_storage.py",
+        "trackio/run.py",
+        "trackio/sqlite_storage.py"
+      ]
+    },
+    {
+      "pr_number": 688,
+      "files": [
+        "tests/unit/test_deploy.py",
+        "trackio/deploy.py"
+      ]
+    },
+    {
+      "pr_number": 687,
+      "files": [
+        "tests/unit/test_fragments.py",
+        "trackio/fragments.py",
+        "trackio/server.py"
+      ]
+    },
+    {
+      "pr_number": 680,
+      "files": [
+        "tests/unit/test_sqlite_storage.py",
+        "trackio/sqlite_storage.py"
+      ]
+    },
+    {
+      "pr_number": 672,
+      "files": [
+        "examples/traces/complex-trace.py",
+        "tests/unit/test_trace.py",
+        "trackio/agent_sessions.py",
+        "trackio/cli.py",
+        "trackio/cli_helpers.py",
+        "trackio/logbook_trace.py",
+        "trackio/run.py",
+        "trackio/sqlite_storage.py",
+        "trackio/trace.py",
+        "trackio/utils.py"
+      ]
+    }
+  ]
+}
