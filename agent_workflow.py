@@ -16,6 +16,30 @@ HIGH_THRESHOLD = 0.80
 MEDIUM_THRESHOLD = 0.60
 
 
+def _extract_text(content) -> str:
+    """
+    Normalizes a langchain/Gemini '.content' value into plain text for display.
+    Newer Gemini responses sometimes come back as a STRING, and sometimes as a
+    LIST of content blocks, e.g.:
+        [{'type': 'text', 'text': '...the real answer...', 'extras': {'signature': '...'}}]
+    Without this, the raw list (including the signature blob) gets shown to the user.
+    """
+    if isinstance(content, str):
+        return content
+    if isinstance(content, list):
+        parts = []
+        for block in content:
+            if isinstance(block, dict):
+                if block.get("type") == "text" and block.get("text"):
+                    parts.append(block["text"])
+            elif isinstance(block, str):
+                parts.append(block)
+        if parts:
+            return "\n\n".join(parts)
+        return str(content)  # fallback: nothing recognizable, show it raw rather than silently drop it
+    return str(content)
+
+
 class ImpactState(TypedDict):
     repo_path: str
     changed_file: str
@@ -46,7 +70,7 @@ def review_agent(state: ImpactState) -> ImpactState:
 
     try:
         llm = ChatGoogleGenerativeAI(model=GEMINI_MODEL, google_api_key=api_key)
-        explanation = llm.invoke(prompt).content
+        explanation = _extract_text(llm.invoke(prompt).content)
     except Exception as e:
         explanation = f"(Gemini explanation unavailable: {e})"
 
@@ -86,8 +110,6 @@ def run_workflow(changed_file: str = CHANGED_FILE, repo_path: str = REPO_PATH) -
 
 
 from pipeline import run_full_pipeline
-from langchain_google_genai import ChatGoogleGenerativeAI
-import os
 
 
 def run_real_instance_workflow(instance_index: int = 0) -> str:
@@ -120,7 +142,7 @@ def run_real_instance_workflow(instance_index: int = 0) -> str:
             f"Explain briefly why the following files are impacted: "
             f"{', '.join(result['impacted_scored'].keys())}"
         )
-        explanation = llm.invoke(prompt).content
+        explanation = _extract_text(llm.invoke(prompt).content)
         lines += ["", "**LLM Explanation:**", explanation]
     except Exception as e:
         lines += ["", f"(LLM explanation unavailable: {e})"]
@@ -143,7 +165,7 @@ def analyze_real_instance(instance_index: int = 0) -> dict:
             f"Explain briefly why the following files are impacted: "
             f"{', '.join(result['impacted_scored'].keys())}"
         )
-        explanation = llm.invoke(prompt).content
+        explanation = _extract_text(llm.invoke(prompt).content)
     except Exception as e:
         explanation = f"LLM explanation unavailable: {e}"
 
@@ -202,7 +224,7 @@ def _explain(prompt: str) -> str:
         return "(Gemini explanation unavailable: GEMINI_API_KEY is not set)"
     try:
         llm = ChatGoogleGenerativeAI(model=GEMINI_MODEL, google_api_key=api_key)
-        return llm.invoke(prompt).content
+        return _extract_text(llm.invoke(prompt).content)
     except Exception as e:
         return f"(Gemini explanation unavailable: {e})"
 
