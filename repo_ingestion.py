@@ -24,6 +24,30 @@ UPLOAD_DIR = os.path.join(os.path.dirname(__file__), "repositories", "uploads")
 REPOSITORIES_DIR = os.path.join(os.path.dirname(__file__), "repositories")
 
 
+def _extract_text(content) -> str:
+    """
+    Normalizes a langchain/Gemini '.content' value into plain text for display.
+    Newer Gemini responses sometimes come back as a STRING, and sometimes as a
+    LIST of content blocks, e.g.:
+        [{'type': 'text', 'text': '...the real answer...', 'extras': {'signature': '...'}}]
+    Without this, the raw list (including the signature blob) gets shown to the user.
+    """
+    if isinstance(content, str):
+        return content
+    if isinstance(content, list):
+        parts = []
+        for block in content:
+            if isinstance(block, dict):
+                if block.get("type") == "text" and block.get("text"):
+                    parts.append(block["text"])
+            elif isinstance(block, str):
+                parts.append(block)
+        if parts:
+            return "\n\n".join(parts)
+        return str(content)  # fallback: nothing recognizable, show it raw rather than silently drop it
+    return str(content)
+
+
 def extract_uploaded_zip(uploaded_file, upload_name: str = "custom_repo") -> str:
     """
     Safely extracts an uploaded zip file into repositories/uploads/<clean_name>.
@@ -214,7 +238,8 @@ def run_comprehensive_analysis(
                     "2. Test Strategy: Which test suites or mocks must be re-run before PR merge.\n"
                     "3. Merge Safety Verdict: HIGH, MEDIUM, or LOW risk."
                 )
-                explanation = llm.invoke(prompt).content
+                raw_content = llm.invoke(prompt).content
+                explanation = _extract_text(raw_content)
             except Exception as exc:
                 explanation = f"AI explanation generated an error: {exc}"
 
